@@ -12,14 +12,14 @@ A estrutura do projeto segue o padrão **MVC (Model-View-Controller)** para sepa
 ```
 APIBOOKS-FLASK/
 ├── app/
-│   ├── __init__.py              # Inicialização da aplicação Flask (fábrica de apps)
-│   ├── config.py                # Configurações (ex: URI do banco de dados)
+│   ├── __init__.py              # Inicialização da aplicação Flask 
+│   ├── config.py                # Configurações 
 │   ├── controllers/
 │   │   ├── author_controller.py # Lógica de negócio para Autores
 │   │   └── book_controller.py   # Lógica de negócio para Livros
 │   ├── models/
-│   │   ├── author_model.py      # Modelo de dados do Autor (SQLAlchemy)
-│   │   └── book_model.py        # Modelo de dados do Livro (SQLAlchemy)
+│   │   ├── author_model.py      # Modelo de dados do Autor 
+│   │   └── book_model.py        # Modelo de dados do Livro 
 │   └── routes/
 │       ├── author_routes.py     # Endpoints de Autores
 │       └── book_routes.py       # Endpoints de Livros
